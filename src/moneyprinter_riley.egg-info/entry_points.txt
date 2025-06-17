@@ -1,0 +1,2 @@
+[console_scripts]
+moneyprinter = src.main:app

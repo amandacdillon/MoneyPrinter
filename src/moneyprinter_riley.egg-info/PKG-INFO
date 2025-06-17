@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: moneyprinter-riley
+Version: 0.1.0
+Summary: Automated tweet drafting, review, and scheduling tool (forked from MoneyPrinter V2).
+Author-email: Amanda DeLuca <amanda@example.com>
+License: MIT
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: openai>=1.17.0
+Requires-Dist: tweepy>=4.15.0
+Requires-Dist: schedule>=1.2.2
+Requires-Dist: typer[all]>=0.12.3
+Requires-Dist: clickhouse-connect>=0.8.17
+Requires-Dist: python-dotenv>=1.1.0
+Requires-Dist: numpy>=2.3.0
+Requires-Dist: scikit-learn>=1.5.0
+Requires-Dist: pydantic>=2.7
+Requires-Dist: moviepy>=2.2.1
+Requires-Dist: selenium>=4.32.0
+Requires-Dist: webdriver-manager>=4.0.2
+Requires-Dist: undetected-chromedriver>=3.5.5
+Requires-Dist: prettytable>=3.16.0
+Requires-Dist: platformdirs>=4.3.0
+Requires-Dist: yagmail>=0.15.293
+Requires-Dist: termcolor>=3.1.0
+Requires-Dist: srt-equalizer>=0.1.10
+Requires-Dist: g4f>=0.5.5.3
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2.0; extra == "dev"
+Requires-Dist: black>=24.4.2; extra == "dev"
+Requires-Dist: ruff>=0.4.4; extra == "dev"
+Requires-Dist: uv>=0.1.43; extra == "dev"
+Dynamic: license-file
