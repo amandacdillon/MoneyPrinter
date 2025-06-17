@@ -17,6 +17,8 @@ yagmail>=0.15.293
 termcolor>=3.1.0
 srt-equalizer>=0.1.10
 g4f>=0.5.5.3
+selenium-firefox>=2.0.8
+assemblyai>=0.41.3
 
 [dev]
 pytest>=8.2.0

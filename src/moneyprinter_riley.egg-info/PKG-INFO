@@ -25,6 +25,8 @@ Requires-Dist: yagmail>=0.15.293
 Requires-Dist: termcolor>=3.1.0
 Requires-Dist: srt-equalizer>=0.1.10
 Requires-Dist: g4f>=0.5.5.3
+Requires-Dist: selenium-firefox>=2.0.8
+Requires-Dist: assemblyai>=0.41.3
 Provides-Extra: dev
 Requires-Dist: pytest>=8.2.0; extra == "dev"
 Requires-Dist: black>=24.4.2; extra == "dev"

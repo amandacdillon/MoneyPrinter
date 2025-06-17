@@ -10,7 +10,6 @@ from uuid import uuid4
 from constants import *
 from termcolor import colored
 from classes.Twitter import Twitter
-from classes.YouTube import YouTube
 from prettytable import PrettyTable
 from classes.Outreach import Outreach
 from classes.AFM import AffiliateMarketing

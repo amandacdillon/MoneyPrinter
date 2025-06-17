@@ -115,6 +115,21 @@ wheels = [
 ]
 
 [[package]]
+name = "assemblyai"
+version = "0.41.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "typing-extensions" },
+    { name = "websockets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e6/88/8c47a5a0d0c866eacea3ece90e44bdb59e33cfbaef6b4074f0c57c51db30/assemblyai-0.41.3.tar.gz", hash = "sha256:06fbd8df325b721c21b9bd7d46a76cffb68e1ea549b02e527946effd38a2fa08", size = 53037 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/79/c9/123198c6164a923354bd20c56b0d2164a23e10b6fa560039a8124f747dab/assemblyai-0.41.3-py3-none-any.whl", hash = "sha256:8088c148fd2997bd796221f2d18ea09bcb68ba0761791e5d121d1c1c72898beb", size = 49097 },
+]
+
+[[package]]
 name = "attrs"
 version = "25.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -422,6 +437,15 @@ wheels = [
 ]
 
 [[package]]
+name = "filelock"
+version = "3.18.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0a/10/c23352565a6544bdc5353e0b15fc1c563352101f30e24bf500207a54df9a/filelock-3.18.0.tar.gz", hash = "sha256:adbc88eabb99d2fec8c9c1b229b171f18afa655400173ddc653d5d01501fb9f2", size = 18075 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4d/36/2a115987e2d8c300a974597416d9de88f2444426de9571f4b59b2cca3acc/filelock-3.18.0-py3-none-any.whl", hash = "sha256:c401f4f8377c4464e6db25fff06205fd89bdd83b65eb0488ed1b160f780e21de", size = 16215 },
+]
+
+[[package]]
 name = "frozenlist"
 version = "1.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -512,6 +536,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6f/ed/ecd1941e69886d98c76d1406d3ca715483cd9c6bf6393e5f5a48e4038bcc/g4f-0.5.5.3.tar.gz", hash = "sha256:a1974eb15c6a8d00db5e7ecb0dd369fdb7e1a68f7c472d3e735d895992051055", size = 360199 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6b/b4/5cea967231f7eec8877e7acba08cbbcff3e6575afb1d0ff4623dac6ceee6/g4f-0.5.5.3-py3-none-any.whl", hash = "sha256:8aa916f9c6a5468b90d9979b4f6450ee01b4bbe6d5f12a16b5bd8a3dd6aa36e9", size = 447896 },
+]
+
+[[package]]
+name = "geckodriver-autoinstaller"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c7/bf/f7fa0998e7afeeed402f6706866eca36d6c2ebbf9447f4d425a6447552ea/geckodriver-autoinstaller-0.1.0.tar.gz", hash = "sha256:08953404903750a7e0905913d86eab13849c75ed61eb281c45697d9f5b5e2eb2", size = 4058 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/a0/527dd9b38cbb198e12ac1878a51cd86136222ffc1d131039e6286a6b57dc/geckodriver_autoinstaller-0.1.0-py3-none-any.whl", hash = "sha256:609236aab9c111af10685cab1ab5551ce86b471101b6add34642545bc7e84bdc", size = 5568 },
 ]
 
 [[package]]
@@ -666,6 +699,53 @@ wheels = [
 ]
 
 [[package]]
+name = "jsoncodable"
+version = "0.1.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jsonpickle" },
+    { name = "noraise" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/98/fd/d7acfde399f802e6b60c38555ffcd320e057a0a8e0b5aaf6dadb5dc125c4/jsoncodable-0.1.7.tar.gz", hash = "sha256:1c4a51987545694a61c14d08dd4ff9abbcf80b9f1d675ffd7d00f13962c68571", size = 5118 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/84/54/03f2442b2d5295ec7b8859873f05a07cfd395a7d461030a57dd71766fa25/jsoncodable-0.1.7-py3-none-any.whl", hash = "sha256:a318a3f4d17e6c96fb3607ec24ca7c01d5d2a2ac0715718055e162c32bcd8de1", size = 6363 },
+]
+
+[[package]]
+name = "jsonpickle"
+version = "4.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e4/a6/d07afcfdef402900229bcca795f80506b207af13a838d4d99ad45abf530c/jsonpickle-4.1.1.tar.gz", hash = "sha256:f86e18f13e2b96c1c1eede0b7b90095bbb61d99fedc14813c44dc2f361dbbae1", size = 316885 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c1/73/04df8a6fa66d43a9fd45c30f283cc4afff17da671886e451d52af60bdc7e/jsonpickle-4.1.1-py3-none-any.whl", hash = "sha256:bb141da6057898aa2438ff268362b126826c812a1721e31cf08a6e142910dc91", size = 47125 },
+]
+
+[[package]]
+name = "k-selenium-cookies"
+version = "0.0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tldextract" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ed/79/f6d7829a8c4d01e8e1a29ef78b6036c4f65efcae6a5165779669e8aec7d5/k_selenium_cookies-0.0.4.tar.gz", hash = "sha256:830b671f0e5de32c2b4f67d473d9e2749ec0c2ad07386fdffa102450028fdf12", size = 3738 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a9/30/45657e5fa681d4a3c0a04f985fc8235a1d7d6b6ee9e5303c1860e68e622d/k_selenium_cookies-0.0.4-py3-none-any.whl", hash = "sha256:868f6b9ccb9fbc2036afa8d466d0e27d4d6fe3d9b2c4b0e57df14c83d3bc9cdb", size = 4883 },
+]
+
+[[package]]
+name = "kproxy"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jsoncodable" },
+    { name = "noraise" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/f3/e9e2ff46531534e9ca50a694b0a9c8bd65ee3267eeb5bccb7961ede6563e/kproxy-0.0.1.tar.gz", hash = "sha256:0f9c88f21c1471f8fddc3c15219f3054e53a1a89846714493068f9eb536a6b17", size = 2757 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1e/18/ea38e9b6a20fb1b68b0dc63b83ebafb04d2be0b9037b298396101a523908/kproxy-0.0.1-py3-none-any.whl", hash = "sha256:aeb6f0a2489cb3e35868a91568191e6b32f68183179a3ee1d4be5fd0ca2b8751", size = 3288 },
+]
+
+[[package]]
 name = "lxml"
 version = "5.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -782,6 +862,7 @@ name = "moneyprinter-riley"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "assemblyai" },
     { name = "clickhouse-connect" },
     { name = "g4f" },
     { name = "moviepy" },
@@ -794,6 +875,7 @@ dependencies = [
     { name = "schedule" },
     { name = "scikit-learn" },
     { name = "selenium" },
+    { name = "selenium-firefox" },
     { name = "srt-equalizer" },
     { name = "termcolor" },
     { name = "tweepy" },
@@ -813,6 +895,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "assemblyai", specifier = ">=0.41.3" },
     { name = "black", marker = "extra == 'dev'", specifier = ">=24.4.2" },
     { name = "clickhouse-connect", specifier = ">=0.8.17" },
     { name = "g4f", specifier = ">=0.5.5.3" },
@@ -828,6 +911,7 @@ requires-dist = [
     { name = "schedule", specifier = ">=1.2.2" },
     { name = "scikit-learn", specifier = ">=1.5.0" },
     { name = "selenium", specifier = ">=4.32.0" },
+    { name = "selenium-firefox", specifier = ">=2.0.8" },
     { name = "srt-equalizer", specifier = ">=0.1.10" },
     { name = "termcolor", specifier = ">=3.1.0" },
     { name = "tweepy", specifier = ">=4.15.0" },
@@ -963,6 +1047,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/83/f8/51569ac65d696c8ecbee95938f89d4abf00f47d58d48f6fbabfe8f0baefe/nest_asyncio-1.6.0.tar.gz", hash = "sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe", size = 7418 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a0/c4/c2971a3ba4c6103a3d10c4b0f24f461ddc027f0f09763220cf35ca1401b3/nest_asyncio-1.6.0-py3-none-any.whl", hash = "sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c", size = 5195 },
+]
+
+[[package]]
+name = "noraise"
+version = "0.0.16"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6d/39/855fc64b1f5b8851c5eae9aa95c077263dedd3aea9127f64e908e8080011/noraise-0.0.16.tar.gz", hash = "sha256:7bbcdddd70ffdd61ee7a17cf072e6e03930c5b04894c593c85d113df1a6925c9", size = 3713 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a8/b8/18213fb658b780c36594479d985db5936d6294e14f8d0cb1fc0514362340/noraise-0.0.16-py3-none-any.whl", hash = "sha256:d768f8844758138817cdd4731e1eb6b843caef9bc926fea44267617811ebcced", size = 4223 },
 ]
 
 [[package]]
@@ -1458,6 +1551,18 @@ wheels = [
 ]
 
 [[package]]
+name = "requests-file"
+version = "2.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/72/97/bf44e6c6bd8ddbb99943baf7ba8b1a8485bcd2fe0e55e5708d7fee4ff1ae/requests_file-2.1.0.tar.gz", hash = "sha256:0f549a3f3b0699415ac04d167e9cb39bccfb730cb832b4d20be3d9867356e658", size = 6891 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d7/25/dd878a121fcfdf38f52850f11c512e13ec87c2ea72385933818e5b6c15ce/requests_file-2.1.0-py2.py3-none-any.whl", hash = "sha256:cf270de5a4c5874e84599fc5778303d496c10ae5e870bfa378818f35d21bda5c", size = 4244 },
+]
+
+[[package]]
 name = "requests-oauthlib"
 version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1615,6 +1720,48 @@ wheels = [
 ]
 
 [[package]]
+name = "selenium-browser"
+version = "0.0.15"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "k-selenium-cookies" },
+    { name = "kproxy" },
+    { name = "noraise" },
+    { name = "selenium" },
+    { name = "xpath-utils" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/53/d1/872c36600a351b994a538657f1f2457ace8c5c16f14ae167445b440a26a9/selenium_browser-0.0.15.tar.gz", hash = "sha256:72912e961f67462abcb192bbbb132efa570c6ad11743fb4766c2f8337b70a5ac", size = 9304 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/11/4a/220e8e84000267de900330caaeeb6dd659daeade1bbc77fd6a09dfa72bba/selenium_browser-0.0.15-py3-none-any.whl", hash = "sha256:f0b75ad80e61639a5441f92744f8381512ace1ce12b5e8fdf671702e865b7a53", size = 14502 },
+]
+
+[[package]]
+name = "selenium-firefox"
+version = "2.0.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "geckodriver-autoinstaller" },
+    { name = "kproxy" },
+    { name = "noraise" },
+    { name = "selenium" },
+    { name = "selenium-browser" },
+    { name = "setuptools" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/21/c7299b7ce0ecee45dc7d91229b338cec6e4d6759fd4c9e362bdd2d4f61bd/selenium_firefox-2.0.8.tar.gz", hash = "sha256:c1ff02a5e9457d4057c05e34b555d8ab01449f5e0966ae2a378d171a7ce66f3c", size = 13868575 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/19/a13176802c130d1eb8734af4deff66181a7fab7cb030c4019d94066b0087/selenium_firefox-2.0.8-py3-none-any.whl", hash = "sha256:2d4e14e276c0f011a026d68c35f0dac0d9a7264ce2d738196058e599ee62c97d", size = 13873179 },
+]
+
+[[package]]
+name = "setuptools"
+version = "80.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/18/5d/3bf57dcd21979b887f014ea83c24ae194cfcd12b9e0fda66b957c69d1fca/setuptools-80.9.0.tar.gz", hash = "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c", size = 1319958 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl", hash = "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922", size = 1201486 },
+]
+
+[[package]]
 name = "shellingham"
 version = "1.5.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1675,6 +1822,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b7/4d/08c89e34946fce2aec4fbb45c9016efd5f4d7f24af8e5d93296e935631d8/threadpoolctl-3.6.0.tar.gz", hash = "sha256:8ab8b4aa3491d812b623328249fab5302a68d2d71745c8a4c719a2fcaba9f44e", size = 21274 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/32/d5/f9a850d79b0851d1d4ef6456097579a9005b31fea68726a4ae5f2d82ddd9/threadpoolctl-3.6.0-py3-none-any.whl", hash = "sha256:43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb", size = 18638 },
+]
+
+[[package]]
+name = "tldextract"
+version = "5.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "filelock" },
+    { name = "idna" },
+    { name = "requests" },
+    { name = "requests-file" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/97/78/182641ea38e3cfd56e9c7b3c0d48a53d432eea755003aa544af96403d4ac/tldextract-5.3.0.tar.gz", hash = "sha256:b3d2b70a1594a0ecfa6967d57251527d58e00bb5a91a74387baa0d87a0678609", size = 128502 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/67/7c/ea488ef48f2f544566947ced88541bc45fae9e0e422b2edbf165ee07da99/tldextract-5.3.0-py3-none-any.whl", hash = "sha256:f70f31d10b55c83993f55e91ecb7c5d84532a8972f22ec578ecfbe5ea2292db2", size = 107384 },
 ]
 
 [[package]]
@@ -1904,6 +2066,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c9/4a/44d3c295350d776427904d73c189e10aeae66d7f555bb2feee16d1e4ba5a/wsproto-1.2.0.tar.gz", hash = "sha256:ad565f26ecb92588a3e43bc3d96164de84cd9902482b130d0ddbaa9664a85065", size = 53425 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/78/58/e860788190eba3bcce367f74d29c4675466ce8dddfba85f7827588416f01/wsproto-1.2.0-py3-none-any.whl", hash = "sha256:b9acddd652b585d75b20477888c56642fdade28bdfd3579aa24a4d2c037dd736", size = 24226 },
+]
+
+[[package]]
+name = "xpath-utils"
+version = "0.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/14/9c02112d778c1459de9833aa55c1a82f59bbe94c1216b8b3a1a2293b096d/xpath_utils-0.0.3.tar.gz", hash = "sha256:a3af71a3f5a2b6fe60b700d02e90ca1cfc0e0441ab450c43a3d20bb62cdb2757", size = 4607 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/10/42/c1d5f4366e89a026bf688e1bfd917eae8c54eb043b6a24c1b3712d30e009/xpath_utils-0.0.3-py3-none-any.whl", hash = "sha256:a1e171cb903351723f06fa7ff830ec9f39819c2f8240a1e85db3dbb602d8fedc", size = 8835 },
 ]
 
 [[package]]
